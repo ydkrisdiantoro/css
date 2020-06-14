@@ -1,0 +1,177 @@
+body {
+	background: #fafafa;
+}
+
+#navbar-main {
+	box-shadow: 0px 0px 16px 0px #e9ecef;
+}
+
+#main {
+	margin-top: 90px;
+}
+
+.bg-prrimary,
+.btn-primary {
+	background-color: rgb(20,28,39);
+}
+
+.btn-primary {
+	border-color: rgb(20,28,39);
+}
+
+input:focus,
+textarea:focus {
+	border-color: rgb(20,28,39) !important;
+	box-shadow: 0 0 0 0.2rem rgba(138, 43, 226, .25) !important;
+}
+
+.text-primary {
+	color: rgb(20,28,39);
+}
+
+a {
+	color: #495057;
+}
+
+a:hover {
+	color: rgb(20,28,39);
+	text-decoration: none;
+}
+
+.blank {
+	height: 42px;
+}
+
+.carousel-style {
+	height: 100%;
+}
+
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+
+/* Scrolling Wrapper */
+.scrolling-wrapper-flex {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	min-height: 80px;
+	margin-bottom: 20px;
+	width: 100%;
+	-webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper-flex .card {
+	flex: 0 0 auto;
+	margin-right: 3px;
+}
+
+.scrolling-wrapper-flex::-webkit-scrollbar {
+	display: none;
+}
+
+/* End of Scrolling wrapper */
+
+
+.iklan {
+	width: 100%;
+	background: rgb(20,28,39);
+	border-radius: 1rem;
+	box-shadow: 0 0 16px 0 #eee;
+}
+
+.font-weight-300 {
+	font-weight: 300 !important;
+}
+
+div.image-card {
+	height: 120px;
+	overflow: hidden;
+	transition: .2s;
+}
+
+div.image-card:hover img {
+	transform: scale(1.5);
+}
+
+.card-img-top {
+	/* width: auto; */
+	background-size: cover;
+	background-position-x: center;
+	margin: auto;
+}
+
+.w-14rem {
+	width: 14rem !important;
+}
+
+.font-size-15 {
+	font-size: 1.5rem;
+}
+
+.clear-link {
+	color: #000 !important;
+}
+
+.clear-link:hover {
+	text-decoration: none !important;
+}
+
+.star-color {
+	color: yellow;
+	fill: yellow;
+}
+
+.list-medsos li {
+	margin-bottom: 8px;
+}
+
+.alamat-p p {
+	margin-bottom: 0;
+}
+
+#modal-search {
+	max-width: 100%;
+	width: 100%;
+	margin: 0;
+	height: 100%;
+}
+
+#modal-search div {
+	border-radius: 0;
+	background-clip: unset;
+}
+
+.hover-bottom:hover {
+	/* border-bottom: 1px solid #fafafa; */
+	background: rgb(20,28,39);
+	color: #fafafa;
+}
+
+.hover-bottom:hover>sup .badge-rgb(20,28,39) {
+	/* border-bottom: 1px solid #fafafa; */
+	background: #fafafa;
+	color: rgb(20,28,39);
+}
+
+.badge-rgb(20,28,39) {
+	background: rgb(20,28,39);
+	color: #fafafa;
+}
+
+.btn-search:focus {
+	box-shadow: none;
+}
+
+.rgb(20,28,39) {
+	background-color: rgb(20,28,39);
+}
+
+.box-shadow-section {
+	background: #fff;
+	box-shadow: 0px 0px 16px 0px #e9ecef;
+}
